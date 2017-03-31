@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Sign In</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">News</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">About</a></li>
+				<li class="icon_nav i_profile active"><a href="login.html"></a></li>
+				<li class="icon_nav i_mail"><a href="#"></a></li>
+			</ul>
+		</nav>
+		<main>
+			<h1>Login page</h1>
+			<div class="login">
+				<form action="" class="login_form" id="login_form">
+					<input type="text" placeholder="Login" nane="login" id="login">
+					<br>
+					<input type="password" placeholder="Password" nane="password" id="password">
+					<br>
+					<button id="submit" class="submit">Sign In</button>
+				</form>
+				<p id="error" class="message">Error: <span id="err"></span></p>
+				<p id="success" class="message">Done!</p>
+			</div>
+		</main>
+		<script src="js/index.js"></script>
+	</body>
+</html>

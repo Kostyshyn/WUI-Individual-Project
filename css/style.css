@@ -1,0 +1,103 @@
+body {
+	font-family: 'Verdana', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+main {
+	padding: 30px;
+}
+nav {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5)
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+nav ul li a {
+	display: block;
+	width: 92px;
+	height: 30px;
+	padding-top: 15px;
+	color: #666666;
+	text-decoration: none;
+	text-align: center;
+	transition: .3s;
+}
+nav a:hover {
+	color: #000000;
+}
+.icon_nav {
+	position: relative;
+	float: right;
+	width: 70px;
+	height: 50px;
+	background-size: 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+	opacity: .7;
+	transition: .3s;
+}
+.icon_nav:hover {
+	opacity: 1;
+}
+.i_profile {
+	background-image: url(../img/user.png);
+}
+.i_mail {
+	background-image: url(../img/mail.png);
+}
+.login {
+	width: 400px;
+	margin: 30px auto;
+}
+.login_form {
+	text-align: center;
+}
+input{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #00b390;
+    outline: none;
+    font-size: 20px;
+}
+button {
+	font-size: 20px;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    transition: .3s;
+}
+.submit {
+	margin-top: 20px;
+	background-color: #7fd9c7;
+}
+.submit:hover {
+	background-color: #00B390;
+}
+.message {
+	margin-top: 40px;
+	width: 90%;
+	padding: 20px;
+	display: none;
+}
+.error {
+	background-color: #ffa6a6;
+	display: block;
+}
+.success {
+	background-color: #73FF73;
+	display: block;
+}
+.active {
+	color: #000000;
+	opacity: 1;
+}
